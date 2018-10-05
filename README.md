@@ -5,7 +5,7 @@ The trasport code is a Fortran code for calculating the longitudinal transport p
 
 arXiv:1807.03852
 
-Analytic continuation is required to obtain optical conductivity. A python code for Pade analytic continuation is accompanied. 
+Analytic continuation is required to obtain optical conductivity. A python code (called Pade.py) for Pade analytic continuation is accompanied. 
 
 Instalation:
 Go to src directory, revise the makefile by providing the path to lapack and blas library  and command
@@ -45,6 +45,14 @@ Case.vk : A binary file including current vertex in momementum space. It should 
        write(NUnitOut,formmat,advance='no') N, Omega_n, &
          (((SelfEnergy(Ns,Norb1,Norb2,N), NOrb2=1,Nnd),NOrb1=1,Nnd), ns=1,Nspin)
      end do
+ 
+ 
+ Outputs: 
+ 
+ Local Green's function
+ 
+ Optical polarization
+ 
  
 
 
