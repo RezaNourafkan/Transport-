@@ -1,9 +1,9 @@
 # Transport-
-Longitudinal transport polarization
+**Longitudinal transport polarization**
 
 The trasport code is a Fortran code for calculating the longitudinal transport polarization, assuming a momentum independent self-energy (DMFT approximation). More especifiaclly, it calculates the paramagnetic contribution of Eq. (11) at the following paper
 
-arXiv:1807.03852
+**arXiv:1807.03852**
 
 Analytic continuation is required to obtain optical conductivity. A python (2.7) code (called Pade.py) for Pade analytic continuation is accompanied. It can be used as follows:
 
@@ -21,7 +21,7 @@ where
 
 -o is the output file name
 
-The optical conductivity is given by third column of PadeOut.dat divided by first column.
+**The optical conductivity is given by third column of PadeOut.dat divided by first column.**
 
 Instalation:
 Go to src directory, revise the makefile by providing the path to lapack and blas library  and command
@@ -29,7 +29,7 @@ make
 
 It will create an exectable file, called "Tran", outside of src file.
 
-Input:
+**Input:**
 The iput file should be saved in a directory called "Input" and includes:
 
 Input.dat : a text file including some parameters
@@ -63,7 +63,7 @@ Case.vk : A binary file including current vertex in momementum space. It should 
      end do
  
  
- Outputs: 
+ **Outputs:** 
  
  Local Green's function
  
