@@ -1,0 +1,13 @@
+Hubbard      # case name
+T            # Interacting system
+#
+1            # Num Orbitals
+1            # Num spin
+#
+1.760        # Chemical Potential
+10.000       # Inverse Temperature
+#          
+2047         # NiwnMax (fermionic) 
+4            # NivnMax (Bosonic)
+#          
+1            # 1 for xx, 2 for yy, 3 for zz
